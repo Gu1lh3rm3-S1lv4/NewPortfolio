@@ -1,4 +1,4 @@
-const palavras = ["Desenvolvedor", "Designer", "Freelancer", "Criador"];
+const palavras = ["Desenvolvedor", "Designer", /*"Freelancer",*/ "Criador"];
 const rotator = document.querySelector(".word-rotator");
 const duracaoTotal = 8; // segundos (tempo total da animação)
 
