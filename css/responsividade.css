@@ -1,0 +1,300 @@
+/* ========== CSS RESPONSIVO ========== */
+@media (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    padding: 0;
+    /* Espaçamento interno */
+    width: 100%;
+
+  }
+
+  .menu-aberto {
+    position: fixed;
+    top: px;
+    /* substitui o margin */
+    height: calc(10vh - 4px);
+    /* ajusta a altura para compensar */
+    text-align: center;
+  }
+
+  .nav-menu a {
+    font-size: 40px;
+  }
+
+  .logo-topo img {
+    width: 30%;
+  }
+
+  .menu svg {
+    width: 80%;
+
+  }
+
+  /*.menu-aberto*/
+
+  .inicio h1 {
+    font-size: 2.5rem;
+    white-space: nowrap;
+  }
+
+  .word-rotator {
+    font-size: 2rem;
+  }
+
+  .sobre {
+    margin-top: 50px;
+    height: 100%;
+    padding: 0;
+
+  }
+
+  .sobre h2 {
+    font-size: 3.5rem;
+
+  }
+
+  .flex {
+    flex-direction: column-reverse;
+    width: 365px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* Centraliza horizontalmente */
+    justify-content: center;
+    /* Centraliza verticalmente, se altura permitir */
+
+  }
+
+  .container-sobre {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-50%);
+    transition: all 2s ease;
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
+  .img-foto {
+    position: relative;
+    margin-top: 100px;
+    z-index: 10
+  }
+
+  .img-foto img {
+    width: 70%;
+  }
+
+  .complemento-sobre {
+    position: relative;
+    margin-top: -385px;
+    z-index: 9;
+  }
+
+  .complemento-sobre img {
+    width: 70%;
+    height: 400px;
+  }
+
+  .btn-pdf {
+    position: absolute;
+    left: auto
+      /*auto*/
+    ;
+    top: 570px;
+    /* ou qualquer valor desejado */
+
+  }
+
+
+
+  .btn-pdf button {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .box-sobre {
+    margin-top: -50px;
+    margin: 0px 30px;
+    box-shadow: 0 12px 32px rgba(130, 2, 250, 0.6);
+  }
+
+  .box-sobre h3 {
+    font-size: 1.5rem;
+  }
+
+  .box-sobre p {
+    font-size: .9rem;
+  }
+
+  .sobre-skills {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+  }
+
+  .img-softs {
+    max-width: 300px;
+  }
+
+  .img-skills i img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .img-2 {
+    max-width: 300px;
+  }
+
+  .img-12 i img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .img-p3 {
+    max-width: 300px;
+  }
+
+  .img-p13 i img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .img-p4 {
+    max-width: 300px;
+  }
+
+  .img-p14 i img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  /*******PORTFOLIO*******/
+
+  .projectSection {
+    /* margin-top: 5rem; */
+    /* background-color: #000000; */
+    /* background-color:  rgb(30, 30, 30); */
+    width: 100%;
+    padding: 0
+  }
+
+  .container-projetos {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-50%);
+    transition: all 2s ease;
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
+  .projectCard {
+    margin: 2rem auto;
+    box-shadow: 0px 0px 1000px rgba(102, 5, 53, 0.765);
+  }
+
+  /*******SEVIÇOS********/
+  .portfolio {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .portfolio h1 {
+    font-size: 3.5rem;
+  }
+
+  .container-portfolio {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-50%);
+    transition: all 2s ease;
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
+  .flex-portfolio {
+    flex-direction: column;
+    width: 365px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /* Centraliza horizontalmente */
+    justify-content: center;
+    /* Centraliza verticalmente, se altura permitir */
+
+  }
+
+  .card {
+    margin: 0px 20px;
+  }
+
+  .card-content p {
+    text-align: left;
+  }
+
+  .card-content {
+    text-align: center;
+  }
+
+  .card-content a {
+    padding: 0;
+    white-space: nowrap;
+    font-size: 15px;
+  }
+
+  /*******FORMULARIO********/
+  .formulario {
+    width: 85%;
+    padding: 0;
+  }
+
+  .container-contato {
+    width: 100%;
+    padding: 3rem 5rem 10rem;
+  }
+
+  .social-section {
+    box-shadow: 1px 1px 5px 10px rgba(103, 103, 103, 0.118);
+    border-radius: 20px;
+    margin-top: 150px;
+    background-color: rgba(103, 103, 103, 0.118);
+
+  }
+
+  .social-btn {
+    margin: auto;
+    padding: auto;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
+}
