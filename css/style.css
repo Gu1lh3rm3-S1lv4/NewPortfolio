@@ -687,7 +687,7 @@ body {
     /* fixa o botão na tela */
     right: 20px;
     /* distância da borda direita */
-    bottom: 20px;
+    bottom: 0px;
     /* distância acima do rodapé (ajuste à vontade) */
     z-index: 10;
     /* garante que fique por cima de outros elementos */
