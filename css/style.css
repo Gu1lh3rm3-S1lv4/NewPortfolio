@@ -683,12 +683,16 @@ body {
 
 /*******BOTAO SOCIAL********/
 .social-container {
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 10000;
-  background: transparent;
-  margin: 0;
+    position: fixed;
+    /* fixa o botão na tela */
+    right: 20px;
+    /* distância da borda direita */
+    bottom: 20px;
+    /* distância acima do rodapé (ajuste à vontade) */
+    z-index: 10;
+    /* garante que fique por cima de outros elementos */
+    background: transparent;
+    margin: 0;
 }
 
 .btn-social {
