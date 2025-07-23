@@ -179,6 +179,8 @@ html {
   overflow-y: auto;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* Fundo animado separado */
