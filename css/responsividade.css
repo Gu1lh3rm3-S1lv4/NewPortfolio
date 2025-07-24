@@ -95,6 +95,12 @@
     width: 100%;
 
   }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: calc(var(--vh, 1vh) * 100); /* essa linha é a chave */
+}
 
   .menu-aberto {
     position: fixed;
