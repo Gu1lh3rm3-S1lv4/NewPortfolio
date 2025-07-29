@@ -90,8 +90,8 @@
   }
 
   .fundo-animado {
-    max-width: 1300px;
-    max-height: 1300´x;
+    height: 100%;
+    width: 100%;
   }
 
   .header {
