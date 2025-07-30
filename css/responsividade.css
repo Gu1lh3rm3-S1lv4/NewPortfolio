@@ -90,8 +90,7 @@
   }
 
   .fundo-animado {
-    background:#000;
-    height: calc(107dvh);
+    height: calc(110dvh);
     /* ajusta a altura para compensar */
     width: 100%;
 
