@@ -86,13 +86,14 @@
   * {
     margin: 0;
     padding: 0;
-    z-index: -2;
+    z-index: 0;
+    background: #000;
   }
 
   .fundo-animado {
     height: calc(100svh);
     /* ajusta a altura para compensar */
-background-size: cover;
+background-size: 100% 100%;
   }
 
   .header {
