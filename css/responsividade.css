@@ -86,11 +86,11 @@
   * {
     margin: 0;
     padding: 0;
-      overscroll-behavior: none;
+    overscroll-behavior: none;
   }
 
   .fundo-animado {
-    height: calc(110dvh);
+    height: calc(100svh);
     /* ajusta a altura para compensar */
     width: 100%;
 
