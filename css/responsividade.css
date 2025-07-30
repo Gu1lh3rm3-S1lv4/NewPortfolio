@@ -90,9 +90,9 @@
   }
 
   .fundo-animado {
-    height: calc(100dvh);
+      height: calc(110dvh);
     /* ajusta a altura para compensar */
-      width: 100%;
+    width: 100%;
   }
 
   .header {
