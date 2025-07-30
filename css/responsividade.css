@@ -92,7 +92,7 @@
   .fundo-animado {
     height: calc(100svh);
     /* ajusta a altura para compensar */
-background-size: 0%;
+background-size: cover;
   }
 
   .header {
