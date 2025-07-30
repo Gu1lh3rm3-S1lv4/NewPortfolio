@@ -91,8 +91,9 @@
 
   .fundo-animado {
     background:#000;
-  width: 100vw;
-height: 100dvh;
+    height: calc(107dvh - 4px);
+    /* ajusta a altura para compensar */
+    width: 100%;
 
   }
 
