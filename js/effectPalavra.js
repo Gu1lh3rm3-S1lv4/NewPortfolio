@@ -1,12 +1,1 @@
-const palavras = ["Desenvolvedor", "Designer", /*"Freelancer",*/ "Criador"];
-const rotator = document.querySelector(".word-rotator");
-const duracaoTotal = 8; // segundos (tempo total da animação)
-
-palavras.forEach((palavra, index) => {
-  const span = document.createElement("span");
-  span.textContent = palavra;
-  const delay = (duracaoTotal / palavras.length) * index;
-  span.style.animationDuration = `${duracaoTotal}s`;
-  span.style.animationDelay = `${delay}s`;
-  rotator.appendChild(span);
-});
+const palavras=["Desenvolvedor","Designer","Freelancer","Criador"],rotator=document.querySelector(".word-rotator"),duracaoTotal=8;palavras.forEach(((a,t)=>{const e=document.createElement("span");e.textContent=a;const o=8/palavras.length*t;e.style.animationDuration="8s",e.style.animationDelay=`${o}s`,rotator.appendChild(e)}));
