@@ -921,6 +921,10 @@
 
   .conteudo-img h4 {
     font-size: 20´x;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    user-select: none;
   }
 
   .sobre h2 {
@@ -1285,4 +1289,5 @@
     top: -10;
     left: 0;
   }
+
 }
