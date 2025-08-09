@@ -1,1 +1,0 @@
-const palavras=["Desenvolvedor","Designer","Freelancer","Criador"],rotator=document.querySelector(".word-rotator"),duracaoTotal=8;palavras.forEach(((a,t)=>{const e=document.createElement("span");e.textContent=a;const o=8/palavras.length*t;e.style.animationDuration="8s",e.style.animationDelay=`${o}s`,rotator.appendChild(e)}));

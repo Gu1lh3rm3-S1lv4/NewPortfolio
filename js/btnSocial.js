@@ -1,1 +1,0 @@
-function toggleMenu(){document.querySelector(".social-container").classList.toggle("active")}document.addEventListener("click",(function(e){const t=document.querySelector(".social-container");document.querySelector(".btn-social").contains(e.target)||t.classList.remove("active")})),Document.querySelector(".btn-social").addEventListener("click",(function(e){e.stopPropagation()}));
