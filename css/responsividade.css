@@ -857,7 +857,7 @@
   }
 
   .fundo-animado {
-    height: calc(110dvh);
+    height: calc(130dvh);
     /* ajusta a altura para compensar */
     width: 100%;
   }
@@ -1285,4 +1285,5 @@
     top: -10;
     left: 0;
   }
+
 }
