@@ -1126,7 +1126,7 @@
     min-height: 100dvh;
     width: 100%;
     padding: 0;
-    margin-top: 200px;
+    margin: 200px auto;
   }
 
   .portfolio h1 {
@@ -1288,3 +1288,4 @@
   }
 
 }
+
