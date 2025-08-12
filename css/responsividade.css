@@ -1022,8 +1022,6 @@
     align-items: center;
     display: flex;
     margin: 0 auto;
-    margin-bottom: 0px;
-
   }
 
   .softs-skills {
@@ -1082,7 +1080,6 @@
   /*******PORTFOLIO*******/
 
   .projectSection {
-    margin: -90px auto;
     /* background-color: #000000; */
     /* background-color:  rgb(30, 30, 30); */
     width: 100vw;
@@ -1126,7 +1123,6 @@
     min-height: 100dvh;
     width: 100%;
     padding: 0;
-    margin: 200px auto;
   }
 
   .portfolio h1 {
@@ -1286,6 +1282,4 @@
     top: -10;
     left: 0;
   }
-
 }
-
